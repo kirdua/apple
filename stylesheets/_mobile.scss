@@ -1,0 +1,67 @@
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 800px) {
+/* Styles */
+  .top-pad{
+    top:40px;
+    border-bottom: 1px solid #ccc;
+  }
+  .header {
+    font-size: 40px;
+    line-height: 42px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .padding-bottom{
+    margin-bottom: 40px;
+  }
+
+  .paragraph {
+    margin-top:20px;
+  }
+  .info {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight:600;
+    margin-top: -2px;
+  }
+
+  .card-info {
+    .info-num{
+      font-size: 24px;
+      line-height: 29px;
+    }
+
+   .desktop-img {
+      display: none;
+   }
+
+   .mobile-img {
+     display:block;
+   }
+
+   .card-list li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+   .info-avocado{
+     align-items: flex-start;
+   }
+   .info-header {
+    padding:0px 0px 10px;
+    font-size: 19px;
+    line-height: 24px;
+   }
+  .info-description{
+    width:100%;
+    padding:0px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+
+  }
+
+
+}
